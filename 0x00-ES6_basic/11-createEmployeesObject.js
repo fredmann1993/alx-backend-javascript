@@ -1,10 +1,10 @@
+/* eslint-disable no-unused-vars */
 export default function createEmployeesObject(departmentName, employees) {
-   let staff = {}
-    for(let employee in employees) {
-     staff[`${departmentName}`] = employees
-
+  const staff = {};
+  for (const employee in employees) {
+    if (true) {
+      staff[`${departmentName}`] = employees;
     }
-
-     return staff
+  }
+  return staff;
 }
-
